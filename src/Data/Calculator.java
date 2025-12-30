@@ -1,3 +1,5 @@
+package Data;
+
 public class Calculator {
 
     public static int moneyMadeInAYear = 0;

@@ -1,3 +1,8 @@
+package GUI;
+
+import Data.Calculator;
+import Data.Months;
+
 public class Menu {
 
     TextUI ui = new TextUI();

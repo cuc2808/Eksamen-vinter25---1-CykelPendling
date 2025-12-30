@@ -1,3 +1,5 @@
+package Data;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Set;
@@ -13,14 +15,6 @@ public class Months {
     public Months(){
         establishMonths();
         establishSeasons();
-    }
-
-    public void setMonthValue(String month,int value){
-        months.replace(month, value);
-    }
-
-    public int getMonthValue(String month){
-        return months.get(month);
     }
 
     public static Set<String> getMonthKeys(){
@@ -59,6 +53,16 @@ public class Months {
         winterSeason.add("FEBRUAR");
         winterSeason.add("MARTS");
     }
+
+    /* Unused:
+    public void setMonthValue(String month,int value){
+        months.replace(month, value);
+    }
+
+    public int getMonthValue(String month){
+        return months.get(month);
+    }
+    */
 
 
 }
